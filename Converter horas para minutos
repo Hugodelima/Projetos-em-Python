@@ -1,0 +1,3 @@
+H=float(input("Forneça o número de horas,Obs:utilizar ponto em caso de valor não inteiro "))#horas para minutos
+M=H*60
+print(H, "Hora(s) equivale a", M,"minutos")
