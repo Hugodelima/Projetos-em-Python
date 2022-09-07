@@ -1,4 +1,4 @@
-=float(input('Informe seu peso em kg '))#p(peso)
+p=float(input('Informe seu peso em kg '))#p(peso)
 a=float(input('Informe sua altura em metros (usar ponto) '))#a(altura) #usar (ponto) tipo 1.80
 
 imc=p/(a**2)
