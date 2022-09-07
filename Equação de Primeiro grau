@@ -1,0 +1,10 @@
+print('ax+b=0')#esquação de primeiro grau
+a=float(input('Informe o valor de a '))
+b=float(input('Informe valor de b '))
+
+x=(-b)/a
+print('x=',x)
+r=(a*x)+b
+
+print('resolucao',r)
+print('A equação',a,'x',b,'=0 é satisfeita quando x=',x)
