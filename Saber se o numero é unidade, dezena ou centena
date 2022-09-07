@@ -1,0 +1,10 @@
+x=float(input('insira um valor positivo qualquer '))#saber se o numero é unidade,dezena ou centena
+
+if x>=0 and x<10:
+print('esse numero é uma unidade')
+elif x>=10 and x<100:
+print('esse numero é uma dezena')
+elif x>=100 and x<1000:
+print('esse número é uma centena')
+else:
+print('esse numero é acima de uma centena')
