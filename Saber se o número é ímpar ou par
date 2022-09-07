@@ -1,0 +1,7 @@
+x=int(input('Insira um número inteiro '))#impar ou par
+
+if x%2==0:
+print(x,'par')
+
+else:
+print(x,'ímpar')
