@@ -1,0 +1,6 @@
+x=float(input('Insira um valor qualquer (obs:utilize ponto para decimal) '))#saber se é inteiro ou float
+
+if x%1==0:
+print(x,'é um número inteiro')
+else:
+print(x,'é um número float')
