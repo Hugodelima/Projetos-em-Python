@@ -1,0 +1,5 @@
+k=float(input("forneça a temperatura em kelvins "))#kelvins
+
+c=k-273.15 #formula
+
+print(c,"valor em celsius")#mostrar resultado
