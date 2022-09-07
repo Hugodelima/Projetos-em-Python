@@ -1,0 +1,4 @@
+C=float(input())#centimetros para metros
+
+M=C*0.01
+print('valor em metros é',M)
