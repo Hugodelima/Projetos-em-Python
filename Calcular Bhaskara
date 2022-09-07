@@ -1,0 +1,21 @@
+print('A esquação geral do segundo grau é ax²+bx+c=0')
+a=float(input('Informe o valor de A !DIFERENTE DE ZERO '))#formula de bhaskara#A noo pode ser zero
+b=float(input('Informe valor de B '))
+c=float(input('Informe o valor de C '))
+
+d=(b**2)-(4ac)
+
+print('Valor de delta =',d)
+
+if (d==0):
+print('1 solução')
+x=(-b-d**(1/2))/2a
+print('Valor de x =',x)
+elif d>0:
+print('2 soluções')
+x1=(-b-d**(1/2))/2a
+x2=(-b+d**(1/2))/2*a
+print('Valor de x1 =',x1)
+print('Valor de x2 =',x2)
+else:
+print('!NÃO TEM SOLUÇÃO')
