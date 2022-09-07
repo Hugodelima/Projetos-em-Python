@@ -1,0 +1,5 @@
+p=float(input("forneça a altura do pai em centimetros "))#altura do pai em centrimetros
+m=float(input("forneça a altura da mãe em centimetros "))#altura da mãe em centimetros
+
+f=(m+p+13)/2#calcular resultado da filho
+print(f,"altura do filho em centimetros no futuro")#mostrar resultado
