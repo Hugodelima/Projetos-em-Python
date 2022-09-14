@@ -1,0 +1,35 @@
+s=float(input('Informe seu salario '))
+print('O salário bruto é de R$',s)
+
+if s<=1212.00:
+    sl=s*((100-7.5)/100)
+    d=s-sl
+    print(d,'Contribuição INSS')
+    print(sl,'Seu salário líquido')
+
+elif (s>=1212.01) and (s<=2427.35):
+    d=(s-1212)*0.09
+    i=90.90+d
+    sl=s-i
+    print(i,'Contribuição INSS')
+    print(sl,'Salário líquido')
+   
+
+elif (s>=2427.36) and (s<=3641.03):
+    d=(s-2427.35)*0.12
+    i=90.90+109.38+d
+    sl=s-i
+    print(i,'Contribuição INSS')
+    print(sl,'Salário líquido')
+
+elif s>=3641.04 and (s<=7087.22):
+    d=(s-3641.03)*0.14
+    i=90.90+109.38+145.64+d
+    sl=s-i
+    print(i,'Contribuição INSS')
+    print(sl,'Salário Líquido')
+
+else:
+    sl=s-828.39 
+    print('Contribuição INSS 828.39 ')
+    print(sl,'Seu salário líquido')
